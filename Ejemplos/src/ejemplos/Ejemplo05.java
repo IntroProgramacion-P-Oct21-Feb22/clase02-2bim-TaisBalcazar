@@ -18,17 +18,17 @@ public class Ejemplo05 {
         // Declarar y generar arreglos en Java
 
         // arreglo de tipo entero
-        int[] arreglo1 = new int[5];
+        String [] marcas_computadoras = new String [5];
         // Se asigna valores al arreglo
-        arreglo1[0] = 10;
-        arreglo1[1] = 30;
-        arreglo1[2] = 50;
-        arreglo1[3] = 70;
-        arreglo1[4] = 90;
+        marcas_computadoras[0] = "Hp";
+        marcas_computadoras[1] = "Lenovo";
+        marcas_computadoras[2] = "Dell";
+        marcas_computadoras[3] = "Asus";
+        marcas_computadoras[4] = "Toshiba";
         // Se hace uso del ciclo repetitivo for para recorrer el arreglo
-        for (int i = 0; i < arreglo1.length; i++) {
-            System.out.printf("Subíndice o Índice %d, con valor %d\n",
-                    i, arreglo1[i]);
+        for (int i = 0; i < marcas_computadoras.length; i++) {
+            System.out.printf("Subíndice o Índice %d, con valor %s\n",
+                    i, marcas_computadoras[i]);
         }
         
     }

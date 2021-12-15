@@ -7,7 +7,7 @@ package ejemplos;
 
 /**
  *
- * @author reroes
+ * @author TaisBalcazar
  */
 public class Ejemplo03 {
 
@@ -27,6 +27,11 @@ public class Ejemplo03 {
         // arreglo de tipo entero
         int[] arreglo3 = {5, 10, 15, 20, 25};
         
+        // arreglo de doubles - 3 elementos
+        double[] promedios = {2.4, 8.5, 5.4 };
+        
+        // arreglo de cadenas - 4 elementos
+        String[] nombres = {"Tais", "Paula", "Sandra", "Paul"};
     }
 
 }

@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Ejemplo10 {
+public class Ejemplo101 {
 
     /**
      * @param args the command line arguments
@@ -28,9 +28,9 @@ public class Ejemplo10 {
         
         for (int i = 0; i < promedios.length; i++) { // estudiantes.length 
             // Se agrega los valores al reporte siempe y cuando
-            // el valor de la posición del arreglo promedios
-            // sea mayor o igual a 9.5
-            if (promedios[i]> 8.1) {
+            // el valor deln nombre del estudiante sea:
+            // Luis o Ana
+            if (estudiantes[i].equals("Luis")||estudiantes[i].equals("Ana")) {
             
                 mensajeFinal = String.format("%sEstudiante:%s - promedio: "
                         + "%.4f\n", 

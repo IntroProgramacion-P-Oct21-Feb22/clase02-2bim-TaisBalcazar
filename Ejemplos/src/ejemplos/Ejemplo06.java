@@ -19,24 +19,24 @@ public class Ejemplo06 {
     public static void main(String[] args) {
         // Declarar y generar arreglos en Java
         Scanner entrada = new Scanner(System.in);
-        int dato;
+        String dato;
         // arreglo de tipo entero
-        int[] arreglo1 = new int[5];
+        String [] programacion = new String [5];
         
         // Se asigna valores al arreglo, pidiendo valores por teclado
         // se usa un ciclo repetitivo
-        for (int i = 0; i < arreglo1.length; i++) {
-            System.out.println("Ingrese un valor para el arreglo");
-            dato = entrada.nextInt();
+        for (int i = 0; i < programacion.length; i++) {
+            System.out.println("Ingrese el lenguaje de programacion");
+            dato = entrada.nextLine();
             // se asigna la variable dato a la posición del arreglo
             // de acuerdo al valor de i
-            arreglo1[i] = dato;
+            programacion[i] = dato;
         }
         
         // Se hace uso del ciclo repetitivo for para recorrer el arreglo
-        for (int i = 0; i < arreglo1.length; i++) {
-            System.out.printf("Subíndice o Índice %d, con valor %d\n",
-                    i, arreglo1[i]);
+        for (int i = 0; i < programacion.length; i++) {
+            System.out.printf("Subíndice o Índice %d, con valor %s\n",
+                    i, programacion[i]);
         }
         
     }

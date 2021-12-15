@@ -7,7 +7,7 @@ package ejemplos;
 
 /**
  *
- * @author reroes
+ * @author TaisBalcazar
  */
 public class Ejemplo01 {
 
@@ -19,18 +19,25 @@ public class Ejemplo01 {
 
         // arreglo de tipo entero
         int[] arreglo1 = new int[5];
+        int[] cedulas = new int[7];
 
         // arreglo de tipo double
         double[] arreglo2 = new double[5];
+        double[] poblaciones = new double [10];
 
         // arreglo de tipo char
         char[] arreglo3 = new char[5];
+        char[] consonantes = new char[15];
 
         // arreglo de tipo String
         String[] arreglo4 = new String[5];
+        String[] apellidos = new String[20];
         
         // arreglo de tipo boleano
         boolean[] arreglo5 = new boolean[5];
+        boolean[] proposiciones = new boolean[5];
+        
+        
     }
 
 }
